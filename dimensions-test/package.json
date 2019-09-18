@@ -1,0 +1,20 @@
+{
+  "name": "dimensions-test",
+  "version": "1.0.0",
+  "description": "Challenge for QA role at DocNetwork",
+  "main": "dimension-convert.js",
+
+  "scripts": {
+    "test": "mocha --ui bdd test/dimension-converter.unit.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "expect": "^24.8.0",
+    "express": "^4.17.1"
+  }
+}
